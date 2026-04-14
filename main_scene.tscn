@@ -8,6 +8,8 @@
 script = ExtResource("1_0f027")
 
 [node name="CSGSphere3D" type="CSGSphere3D" parent="CharacterBody3D" unique_id=437681425]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13814986, 0.32464087, -0.12661934)
+use_collision = true
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=2102284842]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98631525, -1.0638249, -1.852417)
@@ -21,14 +23,17 @@ size = Vector3(19.612778, 0.75683594, 17.448303)
 
 [node name="CSGPolygon3D" type="CSGPolygon3D" parent="." unique_id=481922004]
 transform = Transform3D(0.56124586, 0, -0.8276492, 0, 1, 0, 0.8276492, 0, 0.56124586, 5.833567, 1.6556146, 6.3257365)
+use_collision = true
 polygon = PackedVector2Array(0, 0, -2.662431, -2.2700152, 0.992188, 1.1606755, 1.4908323, -2.6701593)
 
 [node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=1529937800]
 transform = Transform3D(0.2685332, 0, -0.9632704, 0, 1, 0, 0.9632704, 0, 0.2685332, -7.5718703, 2.48741, 3.591794)
+use_collision = true
 radius = 1.1293945
 height = 5.949707
 
 [node name="CSGCylinder3D2" type="CSGCylinder3D" parent="." unique_id=1519474303]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.8918676, 2.5807776, -3.5051222)
+use_collision = true
 radius = 2.8125
 height = 6.4711914
